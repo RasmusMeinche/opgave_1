@@ -244,3 +244,42 @@ transform: translate(550%, -1550%);
     gap: 10px;
 }
 
+/* Kategori */
+
+.wrapper {
+    width: 100%;
+}
+
+.grid_2-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-top: 200px;
+}
+
+.grid_2-3 div {
+    text-align: center;
+    padding: 20px;
+    background-color: #6d6d6d;
+    border-radius: 5px;
+}
+
+/* Produkt */
+
+.shoe-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.shoe-container img {
+    width: 40%;
+    height: 80vh;
+}
+
+.grid_2 {
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+}
