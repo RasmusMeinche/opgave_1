@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 /* Navbar + burgermenu */
 
 ul {
@@ -124,6 +128,12 @@ li a {
 
 /* Produktliste */
 
+.o-skrift-wrap {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
 .center-wrap {
     display: flex;
     align-items: center;  /* Centers content vertically within .center-wrap */
@@ -143,6 +153,7 @@ li a {
 }
 .grid_1-4 h2 {
     font-size: 18px;
+    font-weight: 100;
 }
 .grid_1-4 h3 {
     font-size: 18px;
@@ -188,3 +199,31 @@ li a {
         transform: scale(1.1);
     }
 }
+
+.tre {
+    opacity: 0.5;
+}
+
+.soldout {
+    transform: translate(0%, -650%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: solid 1px #000000;
+    text-align: center;
+    background-color: #b6b4b4;
+}
+
+.rabat {
+    padding: 2px;
+    background-color: red;
+    width: 13%;
+}
+
+.grid_1-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
