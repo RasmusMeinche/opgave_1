@@ -126,6 +126,23 @@ li a {
     filter: blur(8px);
 }
 
+.overlay {
+position: absolute;
+z-index: 1001;
+transform: translate(550%, -1550%);
+}
+
+.overlay-wrap {
+    width: 100%;
+}
+
+.overlay a{
+    color: #000000;
+    text-decoration: none;
+    padding: 20px;
+    border: solid 2px black;
+}
+
 /* Produktliste */
 
 .o-skrift-wrap {
