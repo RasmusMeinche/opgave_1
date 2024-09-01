@@ -19,8 +19,12 @@ fetch("https://kea-alt-del.dk/t7/api/products?limit=10")
 
         /* ændre indhold */
 
-        copy.querySelector("h1").textContent=product.productdisplayname
+        copy.querySelector("h1").textContent=product.productdisplayname;
+        if(product.soldout) {
+            /* produktet er udsolgt */
+            copy.querySelector(".center-wrap").classList.add("soldout");
+        }
 
         /* appende til placering i dom */
-        document.querySelector("main").appendChild(copy);
+        document.querySelector(".grid_1-4").appendChild(copy);
     }
