@@ -163,10 +163,10 @@ transform: translate(450%, -1250%);
 
 .grid_1-4 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);  /* Creates 4 equal columns */
-    gap: 50px;  /* Spacing between grid items */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
     width: 90%;
-    margin: 0 auto;  /* Centers the grid within its container */
+    margin: 0 auto;
 }
 
 .grid_1-4 h1 {
@@ -226,14 +226,11 @@ transform: translate(450%, -1250%);
 }
 
 .soldout {
-    transform: translate(0%, -650%);
+    opacity: 0.5;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 0px;
     padding-right: 0px;
-    border: solid 1px #000000;
-    text-align: center;
-    background-color: #b6b4b4;
 }
 
 .rabat {
@@ -310,4 +307,8 @@ transform: translate(450%, -1250%);
 
 button {
     padding: 10px;
+}
+
+.none {
+    display: none;
 }
