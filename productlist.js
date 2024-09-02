@@ -34,9 +34,9 @@ fetch("https://kea-alt-del.dk/t7/api/products?limit=10")
             copy.querySelector(".center-wrap").classList.add("soldout");
         }
         
-        if(product.discount) {
-            
-            copy.querySelector(".center-wrap").classList.add(".none");
+        if (product.discount === null) {
+            copy.querySelector(".grid_1-2 .rabat").classList.add("none2");
+            copy.querySelector(".grid_1-2 .fuckdig").classList.add("none2");
         }
 
         /* appende til placering i dom */

@@ -233,10 +233,9 @@ transform: translate(450%, -1250%);
     padding-right: 0px;
 }
 
-.rabat {
-    padding: 2px;
+.rabat,
+.fuckdig {
     background-color: red;
-    width: 13%;
 }
 
 .grid_1-2 {
@@ -266,6 +265,9 @@ transform: translate(450%, -1250%);
     border-radius: 5px;
 }
 
+.none2 {
+display: none;
+}
 /* Produkt */
 
 .shoe-container {
@@ -307,8 +309,4 @@ transform: translate(450%, -1250%);
 
 button {
     padding: 10px;
-}
-
-.none {
-    display: none;
 }
