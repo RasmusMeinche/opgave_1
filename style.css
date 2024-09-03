@@ -111,6 +111,7 @@ li a {
     width: 100%;
     height: auto;
     overflow: hidden;
+    position: relative;
 }
 .pic-wrap img{
     /* width: 100%; */
@@ -127,9 +128,10 @@ li a {
 }
 
 .overlay {
-position: absolute;
-z-index: 1001;
-transform: translate(450%, -1250%);
+    display: flex;
+    z-index: 1001;
+    justify-content: center;
+    align-items: center;
 }
 
 .overlay-wrap {
@@ -267,6 +269,10 @@ transform: translate(450%, -1250%);
 
 .none2 {
 display: none;
+}
+
+.nyPris{
+    
 }
 /* Produkt */
 
